@@ -15,14 +15,13 @@ while True:
         elif guess==n:
             print("Congragulations You guesed is right you winned the game")
             break
-    #if guessed number is incorrect save it in another list
+    #depending on the condition whether the number is greater or lesser
         if guess>n:
             print('The value is greater')
-        elif guess<n:
+        else:
             print("Value is lesser")
 
-        else:
-            print("you guessed number is incorrect try again")
+        
         i+=1
     else:
         print("your chances is over the corect number is",n)
