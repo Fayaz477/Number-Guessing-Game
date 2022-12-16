@@ -18,9 +18,10 @@ while True:
     #depending on the condition whether the number is greater or lesser
         if guess>n:
             print('The value is greater')
-        else:
+        elif guess<n:
             print("Value is lesser")
-
+        else:
+            print("invalid number")
         
         i+=1
     else:
